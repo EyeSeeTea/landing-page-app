@@ -10,7 +10,7 @@ import {
     goToHashUrl,
 } from "../../utils";
 
-const recurrentTasks = document => {
+const recurrentTasks = (document, isAdmin) => {
     selectorWait(document, ".bordered-div", e => {
         e.parentNode.style.width = "100%";
         e.style.marginTop = "15px";
@@ -39,15 +39,21 @@ const recurrentTasks = document => {
     textSelector(document, "Update", field => {
         field.textContent = "Submit or update your report";
         field.parentNode.addEventListener("click", event => {
-            window.alert("Thank you for your report on the policy situation");
-            goToHashUrl("/hepatitis");
+            textSelector(document, "OK", field => {
+                field.parentNode.addEventListener("click", event => {
+                    window.alert("Thank you for your report on the policy situation");
+                    if (!isAdmin) goToHashUrl("/hepatitis");
+                });
+            }, field => {
+                    window.alert("Thank you for your report on the policy situation");
+            });
         });
     });
 
     textSelector(document, "Cancel", field => {
         field.textContent = "Go back to home page";
         field.parentNode.addEventListener("click", event => {
-            goToHashUrl("/hepatitis");
+            if (!isAdmin) goToHashUrl("/hepatitis");
         });
     });
 
@@ -100,12 +106,12 @@ export const eventCaptureStyling = async (iframe, { baseUrl, element, event }) =
     });
 
     document.addEventListener("click", event => {
-        recurrentTasks(document);
+        recurrentTasks(document, isAdmin);
     });
 
     await sleep(2500);
 
     filterOrgUnits(document, visibleOrganisationUnits);
 
-    recurrentTasks(document);
+    recurrentTasks(document, isAdmin);
 };

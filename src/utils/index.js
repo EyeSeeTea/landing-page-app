@@ -65,8 +65,9 @@ const waitForText = async (document, text, retry = 0) => {
     return waitForText(document, text, retry + 1);
 };
 
-export const textSelector = async (document, text, action = _.noop) => {
+export const textSelector = async (document, text, action = _.noop, error = _.noop) => {
     const element = await waitForText(document, text);
     if (element) action(element);
+    else error(element);
     return element;
 };
