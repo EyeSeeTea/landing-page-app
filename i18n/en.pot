@@ -5,8 +5,8 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"POT-Creation-Date: 2022-12-21T13:25:48.499Z\n"
-"PO-Revision-Date: 2022-12-21T13:25:48.499Z\n"
+"POT-Creation-Date: 2023-02-10T19:41:11.543Z\n"
+"PO-Revision-Date: 2023-02-10T19:41:11.543Z\n"
 
 msgid "National Health Workforce Accounts Online Data Platform"
 msgstr ""
@@ -224,6 +224,9 @@ msgid "EFH"
 msgstr ""
 
 msgid "Ebola"
+msgstr ""
+
+msgid "Cholera"
 msgstr ""
 
 msgid "Tracker Capture"
