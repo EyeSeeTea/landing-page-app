@@ -262,8 +262,15 @@ export const handleRedirection = async (baseUrl: string, version: number, user: 
     const isNHWAAdmin = shouldRedirect(userGroupIds, [NHWA_ADMINS]);
     const isNHWAGlobalTeam = shouldRedirect(userGroupIds, [NHWA_GLOBAL_TEAM]);
     const isNHWADataManager = shouldRedirect(userGroupIds, [NHWA_DATA_MANAGERS]);
-    const isMALRegionalUser = shouldRedirect(userGroupIds, [MAL_AFRO, MAL_EURO, MAL_PAHO, MAL_SEARO, MAL_WPRO, MAL_EMRO]);
-    
+    const isMALRegionalUser = shouldRedirect(userGroupIds, [
+        MAL_AFRO,
+        MAL_EURO,
+        MAL_PAHO,
+        MAL_SEARO,
+        MAL_WPRO,
+        MAL_EMRO,
+    ]);
+
     const isGLASSCountryUser = shouldRedirect(userGroupIds, [
         AMR_AMC_DATA_CAPTURE,
         AMR_AMC_VISUALIZER,
@@ -303,7 +310,8 @@ export const handleRedirection = async (baseUrl: string, version: number, user: 
     );
     const username = user.name;
 
-    if (configurations.length > 0) {
+    if (configurations.length > 0 || isMALRegionalUser) {
+        console.log(isMALRegionalUser, configurations);
         return {
             username,
             userGroupIds,
@@ -312,7 +320,7 @@ export const handleRedirection = async (baseUrl: string, version: number, user: 
             redirectToGLASS,
             redirectToGLASSHq,
             redirectToGLASSRegional,
-            redirectToMalaria
+            redirectToMalaria,
         };
     } else {
         const { defaultProgramme, fallbackUrl } = config;
@@ -330,7 +338,7 @@ export const handleRedirection = async (baseUrl: string, version: number, user: 
                 redirectToGLASS,
                 redirectToGLASSHq,
                 redirectToGLASSRegional,
-                redirectToMalaria
+                redirectToMalaria,
             };
         } else {
             goToDhis2Url(baseUrl, fallbackUrl);
