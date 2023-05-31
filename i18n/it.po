@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: i18next-conv\n"
-"POT-Creation-Date: 2023-04-12T17:30:42.458Z\n"
+"POT-Creation-Date: 2023-05-31T19:09:44.192Z\n"
 "PO-Revision-Date: 2019-08-07T14:26:49.235Z\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -59,16 +59,22 @@ msgstr ""
 msgid "Eastern Mediterranean regional malaria repository"
 msgstr ""
 
-msgid "GLASS HQ Landing Page"
+msgid "AMR-AMR HQ Landing Page"
 msgstr ""
 
-msgid "Landing page for GLASS admin"
+msgid "Anti-Microbial Resistance Aggregate Data admin landing page"
 msgstr ""
 
-msgid "GLASS Regional Landing Page"
+msgid "AMR-AMR Regional Landing Page"
 msgstr ""
 
-msgid "Landing page for GLASS regional users"
+msgid "Anti-Microbial Resistance Aggregate Data regional landing page"
+msgstr ""
+
+msgid "Expert Committee on Drug Dependence"
+msgstr ""
+
+msgid "Landing page for Expert Committee on Drug Dependence"
 msgstr ""
 
 msgid "Available landing pages"
@@ -190,13 +196,70 @@ msgid ""
 "elimination settings."
 msgstr ""
 
+msgid "WHO Questionnaire"
+msgstr ""
+
+msgid "46th Expert Committee on Drug Dependence"
+msgstr ""
+
+msgid ""
+"This questionnaire will take about 15-25 minutes to complete. You may return "
+"to the questionnaire to amend your responses at any time until the closure "
+"of the questionnaire."
+msgstr ""
+
+msgid "The information requested in "
+msgstr ""
+
+msgid ""
+" will require medical value and/or information on the potential for abuse, "
+"dependence and harm to public health in your country."
+msgstr ""
+
+msgid ""
+"To commence the questionnaire, you will first be asked to indicate that you "
+"agree to the WHO data sharing policy."
+msgstr ""
+
+msgid ""
+"The responses to this questionnaire will be compiled into a report that will "
+"be made publicly available on the WHO ECDD website. The name of your country "
+"may be attributed to the information provided unless you indicate that you "
+"wish for your country name to be anonymized in the final report."
+msgstr ""
+
+msgid ""
+"If you wish to submit any additional information to the attention of the "
+"ECDD Secretariat to be considered for inclusion in the final questionnaire "
+"report, you will have an opportunity to upload documents at the end of the "
+"questionnaire."
+msgstr ""
+
+msgid ""
+"Appendix 1 contains information on key contacts that might have data to "
+"support completion of the questionnaire."
+msgstr ""
+
+msgid ""
+"Any sensitive, confidential or unpublished documents should be emailed to "
+msgstr ""
+
+msgid "ecddsecretariat@who.int."
+msgstr ""
+
+msgid "We thank you in advance for taking the time to "
+msgstr ""
+
+msgid "complete this questionnaire."
+msgstr ""
+
 msgid "Submit country data"
 msgstr ""
 
 msgid "Access, upload and download files on behalf of a country"
 msgstr ""
 
-msgid "GLASS Reports"
+msgid "Approve/reject country data"
 msgstr ""
 
 msgid ""
@@ -204,7 +267,7 @@ msgid ""
 "monitor the status global data submissions"
 msgstr ""
 
-msgid "View GLASS submitted data"
+msgid "Countries approved data"
 msgstr ""
 
 msgid "View what countries have submitted data"
@@ -521,6 +584,14 @@ msgid "Created At"
 msgstr ""
 
 msgid "Read by"
+msgstr ""
+
+msgctxt "name>"
+msgid "<substance"
+msgstr ""
+
+msgctxt "NAME>"
+msgid "this questionnaire for <SUBSTANCE"
 msgstr ""
 
 #, fuzzy

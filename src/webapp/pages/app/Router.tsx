@@ -70,4 +70,5 @@ export interface RouterProps {
     redirectToAMRAMRRegional: boolean;
     showAvailableLandingPages: boolean;
     redirectToMalaria: boolean;
+    redirectToECDDQuestionnaire: boolean;
 }

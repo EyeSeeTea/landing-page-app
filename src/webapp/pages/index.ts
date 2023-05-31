@@ -8,6 +8,7 @@ import RabiesLandingPage from "./landing-page/rabies";
 import SnakebiteLandingPage from "./landing-page/snakebite";
 import InternationalLandingPage from "./landing-page/international";
 import MalariaLandingPage from "./landing-page/eastern-mediterranian-mal-repo";
+import ECDDLandingPage from "./landing-page/ecdd";
 import GLASSLandingPage from "./landing-page/glass-hq";
 import { NotificationsPage } from "./notifications-page/NotificationsPage";
 
@@ -24,4 +25,5 @@ export {
     InternationalLandingPage,
     MalariaLandingPage,
     GLASSLandingPage,
+    ECDDLandingPage,
 };
