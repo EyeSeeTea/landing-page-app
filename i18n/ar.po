@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: i18next-conv\n"
-"POT-Creation-Date: 2023-06-01T17:05:46.988Z\n"
-"PO-Revision-Date: 2019-08-07T14:26:49.235Z\n"
+"POT-Creation-Date: 2023-06-01T17:06:18.975Z\n"
+"PO-Revision-Date: 2023-05-31T19:09:44.192Z\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -24,10 +24,10 @@ msgid "NHWA Data Viewers"
 msgstr ""
 
 msgid "Home page for the Global Reporting System for Hepatitis"
-msgstr "Home page del sistema di segnalazione globale per l'epatite"
+msgstr ""
 
 msgid "Hepatitis"
-msgstr "Epatite"
+msgstr ""
 
 msgid "WHO Rabies Webpage"
 msgstr ""
@@ -87,18 +87,16 @@ msgid "WIDP"
 msgstr ""
 
 msgid "Browser cache cleaner"
-msgstr "Pulitore della cache del browser"
+msgstr ""
 
 msgid "Enables the users to clear the browser cache"
-msgstr "Consente agli utenti di cancellare la cache del browser"
+msgstr ""
 
 msgid "User profile"
-msgstr "Profilo utente"
+msgstr ""
 
 msgid "Allows the users to edit account credentials and public profile"
 msgstr ""
-"Consente agli utenti di modificare le credenziali dell'account e il profilo "
-"pubblico"
 
 msgid "Manage notifications"
 msgstr ""
@@ -197,61 +195,66 @@ msgid ""
 msgstr ""
 
 msgid "WHO Questionnaire"
-msgstr ""
+msgstr "استبيان منظمة الصحة العالمية"
 
 msgid "46th Expert Committee on Drug Dependence"
-msgstr ""
+msgstr "لجنة الخبراء السادسة والأربعون المعنية بالاعتماد على الأدوية"
 
 msgid ""
 "This questionnaire will take about 15-25 minutes to complete. You may return "
 "to the questionnaire to amend your responses at any time until the closure "
 "of the questionnaire."
 msgstr ""
+"يستغرق استكمال هذا المسح حوالي 15- 25 دقيقة. ويمكنك الرجوع إلى الاستبيان "
+"لتعديل إجاباتك في أي وقت إلى أن يحين موعد إغلاق الاستبيان."
 
+#, fuzzy
 msgid "The information requested in this questionnaire for "
-msgstr ""
+msgstr "المعلومات المطلوبة في هذا الاستبيان لـ"
 
 msgid ""
 " will require medical value and/or information on the potential for abuse, "
 "dependence and harm to public health in your country."
 msgstr ""
+"سوف يتطلب قيمة طبية و / أو معلومات عن احتمال إساءة المعاملة والاعتماد "
+"والأضرار بالصحة العامة في بلدك."
 
 msgid ""
 "To commence the questionnaire, you will first be asked to indicate that you "
 "agree to the WHO data sharing policy."
-msgstr ""
+msgstr "ولبدء الاستبيان، سيُطلب منك أولاً الإشارة إلى موافقتك على سياسة منظمة الصحة العالمية في تبادل البيانات."
 
 msgid ""
 "The responses to this questionnaire will be compiled into a report that will "
 "be made publicly available on the WHO ECDD website. The name of your country "
 "may be attributed to the information provided unless you indicate that you "
 "wish for your country name to be anonymized in the final report."
-msgstr ""
+msgstr "فسوف تُجمع الردود على هذا الاستبيان في تقرير يُتاح للجمهور على موقع المنظمة الإلكتروني الخاص بلجنة الخبراء المعنية بالاعتماد على الأدوية. ويمكن أن يُشار إلى أن المعلومات التي تقدمها تتعلق ببلدك إذا لم تُعرب عن رغبتك في عدم الكشف عن اسم بلدك في التقرير النهائي."
 
 msgid ""
 "If you wish to submit any additional information to the attention of the "
 "ECDD Secretariat to be considered for inclusion in the final questionnaire "
 "report, you will have an opportunity to upload documents at the end of the "
 "questionnaire."
-msgstr ""
+msgstr "وإذا أردت تقديم أي معلومات إضافية إلى أمانة اللجنة كي تنظر في إدراجها في تقرير النهائي عن الاستبيان، ستُتاح لك فرصة تحميل الوثائق في نهاية الاستبيان."
 
 msgid ""
 "Appendix 1 contains information on key contacts that might have data to "
 "support completion of the questionnaire."
-msgstr ""
+msgstr "ويحتوي التذييل 1 على معلومات عن جهات الاتصال الرئيسية التي قد تتوافر لديها بيانات تدعم استكمال الاستبيان. "
 
 msgid ""
 "Any sensitive, confidential or unpublished documents should be emailed to "
-msgstr ""
+msgstr "وينبغي إرسال أي وثائق حساسة أو سرية أو غير منشورة بالبريد الإلكتروني إلى العنوان التالي: "
 
 msgid "ecddsecretariat@who.int."
 msgstr ""
 
 msgid "We thank you in advance for taking the time to "
-msgstr ""
+msgstr "نشكرك مقدمًا على قضاء الوقت في ذلك"
 
 msgid "complete this questionnaire."
-msgstr ""
+msgstr "أكمل هذا المسح."
 
 msgid "Submit country data"
 msgstr ""
@@ -300,47 +303,46 @@ msgid "Send internal messages to other users in the GLASS Platform"
 msgstr ""
 
 msgid "Data"
-msgstr "Dati"
+msgstr ""
 
 msgid "Cascade of care / cure"
-msgstr "Cascata di rimedio / cure"
+msgstr ""
 
 msgid "Enter data on the cascade of care / cure"
-msgstr "Immettere i dati sulla cascata di rimedio / cure"
+msgstr ""
 
 msgid "Policy uptake"
-msgstr "Adozione delle politiche"
+msgstr ""
 
 msgid "Report your situation with respect to policy uptake"
-msgstr "Segnala la tua situazione in merito all'adozione delle politiche"
+msgstr ""
 
 msgid "Dashboard"
-msgstr "Dashboard"
+msgstr ""
 
 msgid "Access a dashboard visualizing the data that you entered before"
 msgstr ""
-"Accedi a una dashboard visualizzando i dati che hai inserito in precedenza"
 
 msgid "Other Useful Features"
-msgstr "Altre caratteristiche utili"
+msgstr ""
 
 msgid "Details of the report"
-msgstr "Dettagli del rapporto"
+msgstr ""
 
 msgid "Reporting date"
-msgstr "Data di segnalazione"
+msgstr ""
 
 msgid "Submit or update your report"
-msgstr "Invia o aggiorna il tuo rapporto"
+msgstr ""
 
 msgid "Thank you for your report on the policy situation"
-msgstr "Grazie per il tuo rapporto sulla situazione politica"
+msgstr ""
 
 msgid "Go back to home page"
-msgstr "Torna alla home page"
+msgstr ""
 
 msgid "Programme"
-msgstr "Programma"
+msgstr ""
 
 msgid "Data Management Tool"
 msgstr ""
@@ -545,7 +547,7 @@ msgid "Logout"
 msgstr ""
 
 msgid "World Health Organization"
-msgstr "Organizzazione mondiale della Sanità"
+msgstr ""
 
 msgid "Back"
 msgstr ""
@@ -563,7 +565,7 @@ msgid "Please wait"
 msgstr ""
 
 msgid "Getting ready, Please wait"
-msgstr "Prepararsi, attendere"
+msgstr ""
 
 msgid "Create new notification"
 msgstr ""
@@ -593,7 +595,3 @@ msgstr ""
 msgctxt "NAME>"
 msgid "<SUBSTANCE"
 msgstr ""
-
-#, fuzzy
-#~ msgid "GLASS Dashboard"
-#~ msgstr "Dashboard"

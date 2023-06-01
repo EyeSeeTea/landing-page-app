@@ -23,9 +23,9 @@ const ECDDLandingContent = ({ classes }) => {
                 )}
             </p>
             <p>
-                {i18n.t("The information requested in ")}
+                {i18n.t("The information requested in this questionnaire for ")}
                 <a className={classes.link} href={`/`}>
-                    {i18n.t(`this questionnaire for <SUBSTANCE_NAME>`)}
+                    {i18n.t(`<SUBSTANCE_NAME>`)}
                 </a>
                 {i18n.t(
                     " will require medical value and/or information on the potential for abuse, dependence and harm to public health in your country."
