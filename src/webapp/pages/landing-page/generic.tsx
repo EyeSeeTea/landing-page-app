@@ -4,8 +4,18 @@ import React from "react";
 import { withRouter } from "react-router-dom";
 import { styles } from "../../../domain/models/hepatitis/styles";
 import { goToDhis2Url } from "../../../utils/utils";
+import { NamedRef } from "../../../domain/entities/Ref";
 
-const LandingPage: React.FC<LandingPageProps> = ({ classes, history, baseUrl, items, header, title, username }) => {
+const LandingPage: React.FC<LandingPageProps> = ({
+    classes,
+    history,
+    baseUrl,
+    items,
+    header,
+    title,
+    username,
+    substanceList,
+}) => {
     const HeaderComponent = header || HeaderBar;
 
     const visitPage = ({ type, value }: any) => {
@@ -50,6 +60,23 @@ const LandingPage: React.FC<LandingPageProps> = ({ classes, history, baseUrl, it
                     </Typography>
                 )}
                 {enableBottomLine && !action && <hr className={classes.bottomLine} />}
+                <div className={classes.grid}>
+                    {substanceList &&
+                        substanceList.map(substance => (
+                            <p
+                                onClick={() =>
+                                    goToDhis2Url(
+                                        baseUrl,
+                                        "/dhis-web-capture/index.html#/new?orgUnitId=YmKcm7XKA1Z&programId=OsxTrF8EfBN"
+                                    )
+                                }
+                                className={classes.link}
+                                key={substance.id}
+                            >
+                                - {substance.name}
+                            </p>
+                        ))}
+                </div>
                 {icon && (
                     <div className={classes.iconContainer}>
                         <img
@@ -88,6 +115,7 @@ interface LandingPageProps {
     header: any;
     title: string;
     username: string;
+    substanceList: NamedRef[];
 }
 
 //@ts-ignore

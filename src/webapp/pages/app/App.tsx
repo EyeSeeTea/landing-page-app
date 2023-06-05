@@ -45,6 +45,7 @@ const App = ({ api }: { api: D2Api }) => {
                     reportsMenu: "",
                     validationReport: "",
                 };
+                const ecddSubstances = await compositionRoot.usecases.ecddSubstances.get();
 
                 const apiVersion = getMajorVersion(version);
                 const options = await handleRedirection(baseUrl, apiVersion, user, config, glassDashboardIds);
@@ -62,7 +63,7 @@ const App = ({ api }: { api: D2Api }) => {
                         goToExternalUrl(baseUrl + homePageAppPath);
                     }
                     if (options.redirectToNHWAAdmin) window.location.hash = "/ecdd";
-                    setRouterProps({ ...options, baseUrl });
+                    setRouterProps({ ...options, baseUrl, ecddSubstances });
                 }
             };
 

@@ -5,18 +5,22 @@ export const styles = _theme => ({
         lineHeight: "0.3",
         fontWeight: "bold",
         borderBottom: "0.5px solid black",
+        marginBottom: "20px",
     },
-    subHeading: {
-        fontSize: "20px",
-        fontWeight: "bold",
+    grid: {
+        display: "grid",
     },
     link: {
-        color: "#0067b2",
+        color: "#000000",
         "&:hover": {
             textDecoration: "underline",
+            color: "#0067b2",
         },
         textDecoration: "none",
+        fontSize: "18px",
         fontWeight: "bold",
+        lineHeight: "0",
+        cursor: "pointer",
     },
     separator: {
         textAlign: "left",

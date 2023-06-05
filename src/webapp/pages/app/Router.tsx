@@ -4,8 +4,9 @@ import { HashRouter, Route, Switch } from "react-router-dom";
 import { CacheCleanerPage, EntryCapturePage, GenericLandingPage, NotificationsPage } from "..";
 import { Configuration } from "../../../data/logic/redirection";
 import { defaultData } from "../../../domain/models";
+import { NamedRef } from "../../../domain/entities/Ref";
 
-export const Router: React.FC<RouterProps> = ({ baseUrl, username, userGroupIds, configurations }) => {
+export const Router: React.FC<RouterProps> = ({ baseUrl, username, userGroupIds, configurations, ecddSubstances }) => {
     return (
         <HashRouter>
             <Switch>
@@ -37,6 +38,7 @@ export const Router: React.FC<RouterProps> = ({ baseUrl, username, userGroupIds,
                                 username={username}
                                 userGroupIds={userGroupIds}
                                 items={data}
+                                substanceList={ecddSubstances}
                             />
                         )}
                     />,
@@ -71,4 +73,5 @@ export interface RouterProps {
     showAvailableLandingPages: boolean;
     redirectToMalaria: boolean;
     redirectToECDDQuestionnaire: boolean;
+    ecddSubstances: NamedRef[];
 }

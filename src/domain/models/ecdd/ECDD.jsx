@@ -16,19 +16,14 @@ const StyledECDDLandingTitle = withStyles(styles)(ECDDLandingTitle);
 const ECDDLandingContent = ({ classes }) => {
     return (
         <>
-            <p className={classes.subHeading}>{i18n.t(`<substance_name>`)}</p>
             <p>
                 {i18n.t(
                     "This questionnaire will take about 15-25 minutes to complete. You may return to the questionnaire to amend your responses at any time until the closure of the questionnaire."
                 )}
             </p>
             <p>
-                {i18n.t("The information requested in this questionnaire for ")}
-                <a className={classes.link} href={`/`}>
-                    {i18n.t(`<SUBSTANCE_NAME>`)}
-                </a>
                 {i18n.t(
-                    " will require medical value and/or information on the potential for abuse, dependence and harm to public health in your country."
+                    "The information requested in this questionnaire will require medical value and/or information on the potential for abuse, dependence and harm to public health in your country."
                 )}
             </p>
             <p>
@@ -57,12 +52,7 @@ const ECDDLandingContent = ({ classes }) => {
                     {i18n.t("ecddsecretariat@who.int.")}
                 </a>
             </p>
-            <p>
-                {i18n.t("We thank you in advance for taking the time to ")}
-                <a className={classes.link} href="/">
-                    {i18n.t("complete this questionnaire.")}
-                </a>
-            </p>
+            <p>{i18n.t("We thank you in advance for taking the time to complete this questionnaire.")}</p>
         </>
     );
 };
