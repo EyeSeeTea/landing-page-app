@@ -5,8 +5,8 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"POT-Creation-Date: 2023-06-01T17:06:18.975Z\n"
-"PO-Revision-Date: 2023-06-01T17:06:18.975Z\n"
+"POT-Creation-Date: 2023-06-05T11:22:44.925Z\n"
+"PO-Revision-Date: 2023-06-05T11:22:44.925Z\n"
 
 msgid "National Health Workforce Accounts Online Data Platform"
 msgstr ""
@@ -205,12 +205,10 @@ msgid ""
 "closure of the questionnaire."
 msgstr ""
 
-msgid "The information requested in this questionnaire for "
-msgstr ""
-
 msgid ""
-" will require medical value and/or information on the potential for abuse, "
-"dependence and harm to public health in your country."
+"The information requested in this questionnaire will require medical value "
+"and/or information on the potential for abuse, dependence and harm to "
+"public health in your country."
 msgstr ""
 
 msgid ""
@@ -243,10 +241,7 @@ msgstr ""
 msgid "ecddsecretariat@who.int."
 msgstr ""
 
-msgid "We thank you in advance for taking the time to "
-msgstr ""
-
-msgid "complete this questionnaire."
+msgid "We thank you in advance for taking the time to complete this questionnaire."
 msgstr ""
 
 msgid "Submit country data"
@@ -579,12 +574,4 @@ msgid "Created At"
 msgstr ""
 
 msgid "Read by"
-msgstr ""
-
-msgctxt "name>"
-msgid "<substance"
-msgstr ""
-
-msgctxt "NAME>"
-msgid "<SUBSTANCE"
 msgstr ""

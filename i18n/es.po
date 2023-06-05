@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: i18next-conv\n"
-"POT-Creation-Date: 2023-06-01T17:05:46.988Z\n"
+"POT-Creation-Date: 2023-06-05T11:22:44.925Z\n"
 "PO-Revision-Date: 2019-08-07T14:26:49.235Z\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -210,12 +210,10 @@ msgstr ""
 "de entrega puede modificar sus respuestas."
 
 #, fuzzy
-msgid "The information requested in this questionnaire for "
-msgstr "La información solicitada en este cuestionario para "
-
 msgid ""
-" will require medical value and/or information on the potential for abuse, "
-"dependence and harm to public health in your country."
+"The information requested in this questionnaire will require medical value "
+"and/or information on the potential for abuse, dependence and harm to public "
+"health in your country."
 msgstr ""
 " requerirá que se efectúe una valoración médica y/o se disponga de "
 "información sobre el potencial de esta sustancia para provocar abuso, "
@@ -266,11 +264,10 @@ msgstr ""
 msgid "ecddsecretariat@who.int."
 msgstr ""
 
-msgid "We thank you in advance for taking the time to "
+#, fuzzy
+msgid ""
+"We thank you in advance for taking the time to complete this questionnaire."
 msgstr "Le agradecemos de antemano el tiempo invertido en "
-
-msgid "complete this questionnaire."
-msgstr "rellenar este cuestionario."
 
 msgid "Submit country data"
 msgstr ""
@@ -604,13 +601,12 @@ msgstr ""
 msgid "Read by"
 msgstr ""
 
-msgctxt "name>"
-msgid "<substance"
-msgstr ""
+#, fuzzy
+#~ msgid "The information requested in this questionnaire for "
+#~ msgstr "La información solicitada en este cuestionario para "
 
-msgctxt "NAME>"
-msgid "<SUBSTANCE"
-msgstr ""
+#~ msgid "complete this questionnaire."
+#~ msgstr "rellenar este cuestionario."
 
 #, fuzzy
 #~ msgid "GLASS Dashboard"

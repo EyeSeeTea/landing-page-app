@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: i18next-conv\n"
-"POT-Creation-Date: 2023-06-01T17:05:46.988Z\n"
+"POT-Creation-Date: 2023-06-05T11:22:44.925Z\n"
 "PO-Revision-Date: 2019-08-07T14:26:49.235Z\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -208,12 +208,10 @@ msgid ""
 "of the questionnaire."
 msgstr ""
 
-msgid "The information requested in this questionnaire for "
-msgstr ""
-
 msgid ""
-" will require medical value and/or information on the potential for abuse, "
-"dependence and harm to public health in your country."
+"The information requested in this questionnaire will require medical value "
+"and/or information on the potential for abuse, dependence and harm to public "
+"health in your country."
 msgstr ""
 
 msgid ""
@@ -247,10 +245,8 @@ msgstr ""
 msgid "ecddsecretariat@who.int."
 msgstr ""
 
-msgid "We thank you in advance for taking the time to "
-msgstr ""
-
-msgid "complete this questionnaire."
+msgid ""
+"We thank you in advance for taking the time to complete this questionnaire."
 msgstr ""
 
 msgid "Submit country data"
@@ -584,14 +580,6 @@ msgid "Created At"
 msgstr ""
 
 msgid "Read by"
-msgstr ""
-
-msgctxt "name>"
-msgid "<substance"
-msgstr ""
-
-msgctxt "NAME>"
-msgid "<SUBSTANCE"
 msgstr ""
 
 #, fuzzy
