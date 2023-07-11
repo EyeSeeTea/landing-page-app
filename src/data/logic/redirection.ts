@@ -78,7 +78,7 @@ export const AMR_EGASP_DATA_CAPTURE = "j1BTDP7JUJp";
 export const AMR_EGASP_VISUALIZER = "M2jd9QXVWou";
 
 // ecdd user group id
-export const ECDD_USER = "sXcflcXlsoB";
+export const ECDD_USER = "amYF5vWuTCS";
 
 export interface Configuration {
     programme: string;
