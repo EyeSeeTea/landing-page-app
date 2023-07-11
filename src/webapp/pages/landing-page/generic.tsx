@@ -4,7 +4,6 @@ import React from "react";
 import { withRouter } from "react-router-dom";
 import { styles } from "../../../domain/models/hepatitis/styles";
 import { goToDhis2Url } from "../../../utils/utils";
-import { NamedRef } from "../../../domain/entities/Ref";
 
 const LandingPage: React.FC<LandingPageProps> = ({ classes, history, baseUrl, items, header, title, username }) => {
     const HeaderComponent = header || HeaderBar;

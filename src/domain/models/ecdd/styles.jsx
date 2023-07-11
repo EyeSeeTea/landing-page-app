@@ -7,6 +7,14 @@ export const styles = _theme => ({
         borderBottom: "0.5px solid black",
         marginBottom: "20px",
     },
+    subHeading: {
+        marginTop: "40px",
+        fontWeight: "bold",
+        fontSize: "18px",
+    },
+    bulletList: {
+        listStyleType: "disc",
+    },
     grid: {
         display: "grid",
     },
@@ -25,5 +33,21 @@ export const styles = _theme => ({
     separator: {
         textAlign: "left",
         margin: 20,
+    },
+    dataEntryButton: {
+        background: "#0067b2",
+        color: "#ffffff",
+        padding: "8px",
+        borderRadius: "10px",
+        marginTop: "20px",
+        fontWeight: "bold",
+    },
+    checkboxText: {
+        marginLeft: "10px",
+    },
+    footer: {
+        color: "#0067b2",
+        marginTop: "40px",
+        fontSize: "12px",
     },
 });

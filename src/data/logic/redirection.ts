@@ -94,7 +94,8 @@ export interface Configuration {
 export const buildAvailableConfigurations = (
     version: number,
     userGroupIds: string[],
-    dashboards: DashboardIds
+    dashboards: DashboardIds,
+    baseUrl: string
 ): Configuration[] => {
     const isNHWADataManager = shouldRedirect(userGroupIds, [NHWA_DATA_MANAGERS]);
     const isNHWAGlobalTeam = shouldRedirect(userGroupIds, [NHWA_GLOBAL_TEAM]);
@@ -248,7 +249,7 @@ export const buildAvailableConfigurations = (
             userGroupIds: [ECDD_USER],
             page: ECDDLandingPage,
             header: ecddHeader,
-            data: ECDDData,
+            data: ECDDData(baseUrl),
             icon: "img/who-logo.png",
         },
     ];
@@ -304,7 +305,7 @@ export const handleRedirection = async (
         AMR_AMR_VISUALIZER,
     ]);
 
-    const availableConfiguration = buildAvailableConfigurations(version, userGroupIds, dashboards);
+    const availableConfiguration = buildAvailableConfigurations(version, userGroupIds, dashboards, baseUrl);
     const configurations = availableConfiguration.filter(
         config => isAdminUserGroup || shouldRedirect(userGroupIds, config.userGroupIds)
     );
