@@ -18,6 +18,10 @@ export const styles = _theme => ({
     grid: {
         display: "grid",
     },
+    underline: {
+        textDecoration: "underline",
+        color: "#0067b2",
+    },
     link: {
         color: "#000000",
         "&:hover": {
@@ -34,6 +38,17 @@ export const styles = _theme => ({
         textAlign: "left",
         margin: 20,
     },
+    settingsButton: {
+        background: "#0067b2",
+        color: "#ffffff",
+        padding: "8px",
+        borderRadius: "10px",
+        fontWeight: "bold",
+        marginLeft: "auto",
+        marginRight: "0",
+        display: "block",
+        cursor: "pointer",
+    },
     dataEntryButton: {
         background: "#0067b2",
         color: "#ffffff",
@@ -45,7 +60,7 @@ export const styles = _theme => ({
     checkboxText: {
         marginLeft: "10px",
     },
-    footer: {
+    footnote: {
         color: "#0067b2",
         marginTop: "40px",
         fontSize: "12px",

@@ -21,9 +21,13 @@ const ECDDLandingContent = ({ classes, baseUrl }) => {
     const [isDataEntrySectionVisible, setDataEntrySectionVisibility] = useState();
 
     const actionDataEntry = () => goToDhis2Url(baseUrl, "/dhis-web-dataentry/index.action");
+    const actionSettings = () => goToDhis2Url(baseUrl, "/dhis-web-user-profile/#/settings");
 
     return (
         <>
+            <button className={classes.settingsButton} onClick={actionSettings}>
+                {i18n.t("Choose Language")}
+            </button>
             <p>
                 {i18n.t(
                     "This questionnaire will take about 15-25 minutes to complete. You may return to the questionnaire to amend your responses at any time until the closure of the questionnaire."
@@ -65,8 +69,11 @@ const ECDDLandingContent = ({ classes, baseUrl }) => {
                 <li>
                     <span>
                         {i18n.t(
-                            "Please confirm that you agree for the information provided in this questionnaire to be published. [this item requires a response]"
+                            "Please confirm that you agree for the information provided in this questionnaire to be published."
                         )}
+                        <strong>
+                            <i>{i18n.t("[this item requires a response]")}</i>
+                        </strong>
                     </span>
                     <p>
                         <SimpleCheckBox
@@ -145,9 +152,10 @@ const ECDDLandingContent = ({ classes, baseUrl }) => {
 
                         <li>
                             <span>
-                                {i18n.t(
-                                    "Do you agree to the ‘statement of policy on data sharing’ as outlined above? [this item requires a response]"
-                                )}
+                                {i18n.t("Do you agree to the ‘statement of policy on data sharing’ as outlined above?")}
+                                <strong>
+                                    <i>{i18n.t("[this item requires a response]")}</i>
+                                </strong>
                             </span>
                             <p>
                                 <SimpleCheckBox
@@ -175,12 +183,21 @@ const ECDDLandingContent = ({ classes, baseUrl }) => {
             )}
 
             {isDataSharingSectionVisible && (
-                <footer className={classes.footer}>
+                <div className={classes.footnote}>
                     <sup>1</sup>{" "}
                     {i18n.t(
-                        "Policy on use and sharing of data collected in Member States by the World Health Organization (WHO) outside the context of public health emergencies (Provisional). Geneva: World Health Organization; 2017 (https://www.who.int/publishing/datapolicy/Policy_data_sharing_non_emergency_final.pdf) , accessed 14 August 2019"
+                        "Policy on use and sharing of data collected in Member States by the World Health Organization (WHO) outside the context of public health emergencies (Provisional). Geneva: World Health Organization; 2017 "
                     )}
-                </footer>
+                    <a
+                        className={classes.underline}
+                        href={"https://www.who.int/publishing/datapolicy/Policy_data_sharing_non_emergency_final.pdf"}
+                    >
+                        {i18n.t(
+                            "(https://www.who.int/publishing/datapolicy/Policy_data_sharing_non_emergency_final.pdf)"
+                        )}
+                    </a>
+                    {i18n.t(", accessed 14 August 2019")}
+                </div>
             )}
         </>
     );
