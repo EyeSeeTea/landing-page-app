@@ -1,5 +1,4 @@
 import { ConfigD2ApiRepository } from "./data/repositories/ConfigD2ApiRepository";
-import { ECDDSubstancesD2ApiRepository } from "./data/repositories/ECDDSubstancesD2ApiRepository";
 import { InstanceD2ApiRepository } from "./data/repositories/InstanceD2ApiRepository";
 import { NotificationsD2ApiRepository } from "./data/repositories/NotificationsD2ApiRepository";
 import { Instance } from "./domain/entities/Instance";
@@ -7,7 +6,6 @@ import { DHIS2MessageCountUseCase } from "./domain/usecases/DHIS2MessageCountUse
 import { DeleteNotificationsUseCase } from "./domain/usecases/DeleteNotificationsUseCase";
 import { GetConfigUseCase } from "./domain/usecases/GetConfigUseCase";
 import { GetCurrentUserUseCase } from "./domain/usecases/GetCurrentUserUseCase";
-import { GetECDDSubstancesUseCase } from "./domain/usecases/GetECDDSubstancesUseCase";
 import { GetInstanceVersionUseCase } from "./domain/usecases/GetInstanceVersionUseCase";
 import { ListAllNotificationsUseCase } from "./domain/usecases/ListAllNotificationsUseCase";
 import { ListUserNotificationsUseCase } from "./domain/usecases/ListUserNotificationsUseCase";
@@ -18,7 +16,6 @@ export function getCompositionRoot(instance: Instance) {
     const instanceRepository = new InstanceD2ApiRepository(instance);
     const notificationsRepository = new NotificationsD2ApiRepository(instance, instanceRepository);
     const configRepository = new ConfigD2ApiRepository(instance);
-    const ecddSubstancesRepository = new ECDDSubstancesD2ApiRepository(instance);
 
     return {
         usecases: {
@@ -36,9 +33,6 @@ export function getCompositionRoot(instance: Instance) {
             }),
             config: getExecute({
                 get: new GetConfigUseCase(configRepository),
-            }),
-            ecddSubstances: getExecute({
-                get: new GetECDDSubstancesUseCase(ecddSubstancesRepository),
             }),
         },
     };

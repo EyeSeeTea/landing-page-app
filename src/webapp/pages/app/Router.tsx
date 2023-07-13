@@ -4,7 +4,6 @@ import { HashRouter, Route, Switch } from "react-router-dom";
 import { CacheCleanerPage, EntryCapturePage, GenericLandingPage, NotificationsPage } from "..";
 import { Configuration } from "../../../data/logic/redirection";
 import { defaultData } from "../../../domain/models";
-import { NamedRef } from "../../../domain/entities/Ref";
 
 export const Router: React.FC<RouterProps> = ({ baseUrl, username, userGroupIds, configurations }) => {
     return (
