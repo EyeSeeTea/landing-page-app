@@ -82,7 +82,7 @@ const ECDDLandingContent = ({ classes, baseUrl }) => {
                         />
                         <span className={classes.checkboxText}>
                             {i18n.t(
-                                "I agree for the information provided in this questionnaire to be published (I will choose later if my country name is to be anonymised in the final report"
+                                "I agree for the information provided in this questionnaire to be published (I will choose later if my country name is to be anonymised in the final report)"
                             )}
                         </span>
                     </p>
