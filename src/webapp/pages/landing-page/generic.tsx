@@ -28,6 +28,7 @@ const LandingPage: React.FC<LandingPageProps> = ({ classes, history, baseUrl, it
             description,
             icon,
             iconDescription,
+            notification,
             action,
             enableBottomLine,
             rowLength,
@@ -50,6 +51,7 @@ const LandingPage: React.FC<LandingPageProps> = ({ classes, history, baseUrl, it
                     </Typography>
                 )}
                 {enableBottomLine && !action && <hr className={classes.bottomLine} />}
+                {notification && <p className={classes.notification}>&#10071; {notification}</p>}
                 {icon && (
                     <div className={classes.iconContainer}>
                         <img

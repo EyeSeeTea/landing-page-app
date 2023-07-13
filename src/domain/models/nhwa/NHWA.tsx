@@ -1,6 +1,18 @@
 import _ from "lodash";
 import i18n from "../../../locales";
 
+const NHWANotification = () => {
+    return (
+        <>
+            The data entry forms (datasets) and batch upload templates now reflect <u>ALL</u> the NHWA v2 modules.{" "}
+            <u>
+                <i>Please note to download the new templates for Batch upload option</i>
+            </u>
+            . All the historic data has been mapped for M01, M02; remaining modules to follow.
+        </>
+    );
+};
+
 export const nhwaAdminData = (_version: number) => [
     {
         key: "maturity-assessment-title",
@@ -41,6 +53,7 @@ export const nhwaAdminData = (_version: number) => [
     {
         key: "nhwa-data-entry-title",
         title: i18n.t("NHWA data entry"),
+        notification: <NHWANotification />,
         description: i18n.t(
             "Data entry into the system can be done (i) directly through the system interface or (ii) as batch upload through excel sheets."
         ),
