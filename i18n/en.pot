@@ -5,8 +5,8 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"POT-Creation-Date: 2023-07-14T10:50:01.328Z\n"
-"PO-Revision-Date: 2023-07-14T10:50:01.328Z\n"
+"POT-Creation-Date: 2023-07-14T13:35:12.348Z\n"
+"PO-Revision-Date: 2023-07-14T13:35:12.348Z\n"
 
 msgid "National Health Workforce Accounts Online Data Platform"
 msgstr ""
@@ -335,6 +335,12 @@ msgid "No (end this survey)"
 msgstr ""
 
 msgid "Go to Data Entry App"
+msgstr ""
+
+msgid ""
+"Policy on use and sharing of data collected in Member States by the World "
+"Health Organization (WHO) outside the context of public health emergencies "
+"(Provisional). Geneva: World Health Organization; 2017 "
 msgstr ""
 
 msgid ", accessed 14 August 2019"

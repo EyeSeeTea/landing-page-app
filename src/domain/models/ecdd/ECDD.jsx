@@ -186,15 +186,14 @@ const ECDDLandingContent = ({ classes, baseUrl }) => {
                 <div className={classes.footnote}>
                     <sup>1</sup>{" "}
                     {i18n.t(
-                        "Policy on use and sharing of data collected in Member States by the World Health Organization (WHO) outside the context of public health emergencies (Provisional). Geneva: World Health Organization; 2017 "
+                        "Policy on use and sharing of data collected in Member States by the World Health Organization (WHO) outside the context of public health emergencies (Provisional). Geneva: World Health Organization; 2017 ",
+                        { nsSeparator: false }
                     )}
                     <a
                         className={classes.underline}
                         href={"https://www.who.int/publishing/datapolicy/Policy_data_sharing_non_emergency_final.pdf"}
                     >
-                        {i18n.t(
-                            "(https://www.who.int/publishing/datapolicy/Policy_data_sharing_non_emergency_final.pdf)"
-                        )}
+                        (https://www.who.int/publishing/datapolicy/Policy_data_sharing_non_emergency_final.pdf),
                     </a>
                     {i18n.t(", accessed 14 August 2019")}
                 </div>

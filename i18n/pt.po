@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: i18next-conv\n"
-"POT-Creation-Date: 2023-07-14T10:50:01.328Z\n"
+"POT-Creation-Date: 2023-07-14T13:35:12.348Z\n"
 "PO-Revision-Date: 2019-08-07T14:26:49.235Z\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -339,6 +339,12 @@ msgid "No (end this survey)"
 msgstr ""
 
 msgid "Go to Data Entry App"
+msgstr ""
+
+msgid ""
+"Policy on use and sharing of data collected in Member States by the World "
+"Health Organization (WHO) outside the context of public health emergencies "
+"(Provisional). Geneva: World Health Organization; 2017 "
 msgstr ""
 
 msgid ", accessed 14 August 2019"

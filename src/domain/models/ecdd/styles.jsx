@@ -2,7 +2,7 @@ export const styles = _theme => ({
     title: {
         color: "#0067b2",
         fontSize: "24px",
-        lineHeight: "0.3",
+        lineHeight: "0.9",
         fontWeight: "bold",
         borderBottom: "0.5px solid black",
         marginBottom: "20px",
@@ -59,6 +59,7 @@ export const styles = _theme => ({
     },
     checkboxText: {
         marginLeft: "10px",
+        marginRight: "10px",
     },
     footnote: {
         color: "#0067b2",

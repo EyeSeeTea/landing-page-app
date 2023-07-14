@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: i18next-conv\n"
-"POT-Creation-Date: 2023-07-14T10:50:01.328Z\n"
-"PO-Revision-Date: 2019-08-07T14:26:49.235Z\n"
+"POT-Creation-Date: 2023-07-14T13:35:12.348Z\n"
+"PO-Revision-Date: 2023-07-14T13:35:12.348Z\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -24,10 +24,10 @@ msgid "NHWA Data Viewers"
 msgstr ""
 
 msgid "Home page for the Global Reporting System for Hepatitis"
-msgstr "Página de inicio del Sistema Mundial de Información sobre Hepatitis"
+msgstr ""
 
 msgid "Hepatitis"
-msgstr "Hepatitis"
+msgstr ""
 
 msgid "WHO Rabies Webpage"
 msgstr ""
@@ -87,17 +87,16 @@ msgid "WIDP"
 msgstr ""
 
 msgid "Browser cache cleaner"
-msgstr "Limpiador de caché del navegador"
+msgstr ""
 
 msgid "Enables the users to clear the browser cache"
-msgstr "Permite a los usuarios borrar el caché del navegador"
+msgstr ""
 
 msgid "User profile"
-msgstr "Perfil del usuario"
+msgstr ""
 
 msgid "Allows the users to edit account credentials and public profile"
 msgstr ""
-"Permite a los usuarios editar sus credenciales de cuenta y perfil público"
 
 msgid "Manage notifications"
 msgstr ""
@@ -196,10 +195,10 @@ msgid ""
 msgstr ""
 
 msgid "WHO Questionnaire"
-msgstr "Cuestionario de la OMS"
+msgstr ""
 
 msgid "46th Expert Committee on Drug Dependence"
-msgstr "46.ª reunión del Comité de Expertos en Farmacodependencia"
+msgstr ""
 
 msgid "Choose Language"
 msgstr ""
@@ -209,25 +208,17 @@ msgid ""
 "to the questionnaire to amend your responses at any time until the closure "
 "of the questionnaire."
 msgstr ""
-"Este cuestionario se puede completar en unos 15-25 minutos. Hasta la fecha "
-"de entrega puede modificar sus respuestas."
 
-#, fuzzy
 msgid ""
 "The information requested in this questionnaire will require medical value "
 "and/or information on the potential for abuse, dependence and harm to public "
 "health in your country."
 msgstr ""
-" requerirá que se efectúe una valoración médica y/o se disponga de "
-"información sobre el potencial de esta sustancia para provocar abuso, "
-"dependencia y daños a la salud pública en su país. "
 
 msgid ""
 "To commence the questionnaire, you will first be asked to indicate that you "
 "agree to the WHO data sharing policy."
 msgstr ""
-"Antes de empezar a responder se le pedirá que acepte la política de "
-"intercambio de datos de la OMS."
 
 msgid ""
 "The responses to this questionnaire will be compiled into a report that will "
@@ -235,10 +226,6 @@ msgid ""
 "may be attributed to the information provided unless you indicate that you "
 "wish for your country name to be anonymized in the final report."
 msgstr ""
-"Las respuestas al cuestionario se compilarán en un informe que se publicará "
-"en el sitio web del Comité de Expertos de la OMS en Farmacodependencia. El "
-"nombre de su país se presentará junto con los datos del cuestionario, salvo "
-"que usted indique que no desea que dicho nombre figure en el informe final."
 
 msgid ""
 "If you wish to submit any additional information to the attention of the "
@@ -246,31 +233,22 @@ msgid ""
 "report, you will have an opportunity to upload documents at the end of the "
 "questionnaire."
 msgstr ""
-"Si desea aportar información a la atención de la secretaría del Comité de "
-"Expertos de la OMS en Farmacodependencia para su inclusión en el informe "
-"final pertinente, podrá cargar los documentos correspondientes al final del "
-"cuestionario."
 
 msgid ""
 "Appendix 1 contains information on key contacts that might have data to "
 "support completion of the questionnaire."
 msgstr ""
-"En el apéndice 1 se ofrece información sobre contactos clave que podrían "
-"disponer de datos de utilidad para cumplimentar el cuestionario. "
 
 msgid ""
 "Any sensitive, confidential or unpublished documents should be emailed to "
 msgstr ""
-"Puede enviar los documentos sensibles, confidenciales o no publicados a la "
-"dirección de correo electrónico "
 
 msgid "ecddsecretariat@who.int."
 msgstr ""
 
-#, fuzzy
 msgid ""
 "We thank you in advance for taking the time to complete this questionnaire."
-msgstr "Le agradecemos de antemano el tiempo invertido en "
+msgstr ""
 
 msgid ""
 "Please confirm that you agree for the information provided in this "
@@ -363,6 +341,12 @@ msgstr ""
 msgid "Go to Data Entry App"
 msgstr ""
 
+msgid ""
+"Policy on use and sharing of data collected in Member States by the World "
+"Health Organization (WHO) outside the context of public health emergencies "
+"(Provisional). Geneva: World Health Organization; 2017 "
+msgstr ""
+
 msgid ", accessed 14 August 2019"
 msgstr ""
 
@@ -413,46 +397,46 @@ msgid "Send internal messages to other users in the GLASS Platform"
 msgstr ""
 
 msgid "Data"
-msgstr "Datos"
+msgstr ""
 
 msgid "Cascade of care / cure"
-msgstr "Cascada de cuidado / cura"
+msgstr ""
 
 msgid "Enter data on the cascade of care / cure"
-msgstr "Ingrese datos en la cascada de cuidado / cura"
+msgstr ""
 
 msgid "Policy uptake"
-msgstr "Adopción de políticas"
+msgstr ""
 
 msgid "Report your situation with respect to policy uptake"
-msgstr "Informe su situación con respecto a la adopción de políticas"
+msgstr ""
 
 msgid "Dashboard"
-msgstr "Tablero"
+msgstr ""
 
 msgid "Access a dashboard visualizing the data that you entered before"
-msgstr "Acceda a un tablero que visualiza los datos que ingresó anteriormente"
+msgstr ""
 
 msgid "Other Useful Features"
-msgstr "Otras características útiles"
+msgstr ""
 
 msgid "Details of the report"
-msgstr "Detalles del informe"
+msgstr ""
 
 msgid "Reporting date"
-msgstr "Fecha de reporte"
+msgstr ""
 
 msgid "Submit or update your report"
-msgstr "Enviar o actualizar su informe"
+msgstr ""
 
 msgid "Thank you for your report on the policy situation"
-msgstr "Gracias por su informe sobre la adopción de políticas."
+msgstr ""
 
 msgid "Go back to home page"
-msgstr "Volver a la página principal"
+msgstr ""
 
 msgid "Programme"
-msgstr "Programa"
+msgstr ""
 
 msgid "Data Management Tool"
 msgstr ""
@@ -657,7 +641,7 @@ msgid "Logout"
 msgstr ""
 
 msgid "World Health Organization"
-msgstr "Organización Mundial de la Salud"
+msgstr ""
 
 msgid "Back"
 msgstr ""
@@ -675,7 +659,7 @@ msgid "Please wait"
 msgstr ""
 
 msgid "Getting ready, Please wait"
-msgstr "Preparando, por favor espere"
+msgstr ""
 
 msgid "Create new notification"
 msgstr ""
@@ -697,14 +681,3 @@ msgstr ""
 
 msgid "Read by"
 msgstr ""
-
-#, fuzzy
-#~ msgid "The information requested in this questionnaire for "
-#~ msgstr "La información solicitada en este cuestionario para "
-
-#~ msgid "complete this questionnaire."
-#~ msgstr "rellenar este cuestionario."
-
-#, fuzzy
-#~ msgid "GLASS Dashboard"
-#~ msgstr "Tablero"
