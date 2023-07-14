@@ -110,16 +110,16 @@ const ECDDLandingContent = ({ classes, baseUrl }) => {
                             </p>
                             <p>
                                 {i18n.t(
-                                    "In this connection, and without prejudice to information sharing and publication pursuant to legally binding instruments, by providing data to WHO, our focal point confirm that:"
+                                    "In this connection, and without prejudice to information sharing and publication pursuant to legally binding instruments, by providing data to WHO, our focal point."
                                 )}
                             </p>
                             <p>
                                 {i18n.t(
                                     "Confirms that all data to be supplied to WHO (including but not limited to the types listed in Annex 3"
                                 )}
-                                <sup>1</sup>)
+                                <sup>1</sup>
                                 {i18n.t(
-                                    "hereunder have been collected in accordance with applicable national laws, including data protection laws aimed at protecting the confidentiality of identifiable persons;"
+                                    ") hereunder have been collected in accordance with applicable national laws, including data protection laws aimed at protecting the confidentiality of identifiable persons;"
                                 )}
                             </p>
                             <p>
