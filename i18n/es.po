@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: i18next-conv\n"
-"POT-Creation-Date: 2023-05-31T11:25:49.628Z\n"
+"POT-Creation-Date: 2023-07-14T13:35:12.348Z\n"
 "PO-Revision-Date: 2019-08-07T14:26:49.235Z\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -69,6 +69,12 @@ msgid "AMR-AMR Regional Landing Page"
 msgstr ""
 
 msgid "Anti-Microbial Resistance Aggregate Data regional landing page"
+msgstr ""
+
+msgid "Expert Committee on Drug Dependence"
+msgstr ""
+
+msgid "Landing page for Expert Committee on Drug Dependence"
 msgstr ""
 
 msgid "Available landing pages"
@@ -188,6 +194,170 @@ msgid ""
 "investigation is an aid for malaria surveillance in burden reduction and "
 "elimination settings."
 msgstr ""
+
+msgid "WHO Questionnaire"
+msgstr "Cuestionario de la OMS"
+
+msgid "46th Expert Committee on Drug Dependence"
+msgstr "46.ª reunión del Comité de Expertos en Farmacodependencia"
+
+msgid "Choose Language"
+msgstr ""
+
+msgid ""
+"This questionnaire will take about 15-25 minutes to complete. You may return "
+"to the questionnaire to amend your responses at any time until the closure "
+"of the questionnaire."
+msgstr ""
+"Este cuestionario se puede completar en unos 15-25 minutos. Hasta la fecha de entrega puede modificar sus respuestas."
+
+msgid ""
+"The information requested in this questionnaire will require medical value "
+"and/or information on the potential for abuse, dependence and harm to public "
+"health in your country."
+msgstr ""
+"La información solicitada en este cuestionario sobre NOMBRE DE LA SUSTANCIA requerirá que se efectúe una valoración médica y/o se disponga de información sobre el potencial de esta sustancia para provocar abuso, dependencia y daños a la salud pública en su país. "
+
+msgid ""
+"To commence the questionnaire, you will first be asked to indicate that you "
+"agree to the WHO data sharing policy."
+msgstr ""
+"Antes de empezar a responder se le pedirá que acepte la política de intercambio de datos de la OMS."
+
+msgid ""
+"The responses to this questionnaire will be compiled into a report that will "
+"be made publicly available on the WHO ECDD website. The name of your country "
+"may be attributed to the information provided unless you indicate that you "
+"wish for your country name to be anonymized in the final report."
+msgstr ""
+"Las respuestas al cuestionario se compilarán en un informe que se publicará en el sitio web del Comité de Expertos de la OMS en Farmacodependencia. El nombre de su país se presentará junto con los datos del cuestionario, salvo que usted indique que no desea que dicho nombre figure en el informe final."
+
+msgid ""
+"If you wish to submit any additional information to the attention of the "
+"ECDD Secretariat to be considered for inclusion in the final questionnaire "
+"report, you will have an opportunity to upload documents at the end of the "
+"questionnaire."
+msgstr ""
+"Si desea aportar información a la atención de la secretaría del Comité de Expertos de la OMS en Farmacodependencia para su inclusión en el informe final pertinente, podrá cargar los documentos correspondientes al final del cuestionario."
+
+msgid ""
+"Appendix 1 contains information on key contacts that might have data to "
+"support completion of the questionnaire."
+msgstr ""
+"En el apéndice 1 se ofrece información sobre contactos clave que podrían disponer de datos de utilidad para cumplimentar el cuestionario."
+
+msgid ""
+"Any sensitive, confidential or unpublished documents should be emailed to "
+msgstr ""
+"Puede enviar los documentos sensibles, confidenciales o no publicados a la dirección de correo electrónico "
+
+msgid "ecddsecretariat@who.int."
+msgstr ""
+
+#, fuzzy
+msgid ""
+"We thank you in advance for taking the time to complete this questionnaire."
+msgstr "Le agradecemos de antemano el tiempo invertido en rellenar este cuestionario"
+
+msgid ""
+"Please confirm that you agree for the information provided in this "
+"questionnaire to be published."
+msgstr "¿Acepta que se publique la información facilitada en este cuestionario? "
+
+msgid "[this item requires a response]"
+msgstr "[respuesta obligatoria]"
+
+msgid ""
+"I agree for the information provided in this questionnaire to be published "
+"(I will choose later if my country name is to be anonymised in the final "
+"report)"
+msgstr "Acepto que se publique la información facilitada en este cuestionario (después podré elegir si quiero que en el informe final no deba figurar el nombre de mi país)"
+
+msgid ""
+"I do not agree for the information provided in this questionnaire to be "
+"published (end this survey)"
+msgstr "No acepto que se publique la información facilitada en este cuestionario (finalice aquí el cuestionario)"
+
+msgid "Statement of policy on data sharing"
+msgstr "Declaración sobre la política de intercambio de datos"
+
+msgid ""
+"Data are the basis for all sound public health actions and the benefits of "
+"data sharing are widely recognized, including scientific and public health "
+"benefits. Whenever possible, WHO wishes to promote the sharing of health "
+"data, including but not restricted to surveillance and epidemiological data."
+msgstr "Los datos son la base de todas las medidas adecuadas en materia de salud pública y los beneficios que aporta el intercambio de datos son ampliamente reconocidos, entre ellos los de índole científica y de salud pública. Siempre que sea posible, la Organización Mundial de la Salud (OMS) desea promover el intercambio de datos de salud, incluidos, aunque no exclusivamente, los datos sobre vigilancia y epidemiología."
+
+msgid ""
+"In this connection, and without prejudice to information sharing and "
+"publication pursuant to legally binding instruments, by providing data to "
+"WHO, our focal point."
+msgstr "En este sentido, y sin perjuicio de los instrumentos jurídicamente vinculantes sobre intercambio y publicación de información, al proporcionar datos a la OMS la persona de contacto de mi país"
+
+msgid ""
+"Confirms that all data to be supplied to WHO (including but not limited to "
+"the types listed in Annex 3"
+msgstr "Confirma que todos los datos proporcionados a continuación a la OMS (entre ellos los de los tipos enumerados en el anexo 3"
+
+msgid ""
+") hereunder have been collected in accordance with applicable national laws, "
+"including data protection laws aimed at protecting the confidentiality of "
+"identifiable persons;"
+msgstr ") han sido recopilados de conformidad con las leyes nacionales aplicables, en particular las relativas a la protección de datos destinadas a salvaguardar la confidencialidad de personas identificables;"
+
+msgid ""
+"Agrees that WHO shall be entitled, subject always to measures to ensure the "
+"ethical and secure use of the data, and subject always to an appropriate "
+"acknowledgement of this focal point."
+msgstr "Reconoce que, siempre con sujeción a las medidas destinadas a garantizar el uso ético y seguro de los datos y a la aceptación de mi país, la OMS tendrá derecho: "
+
+msgid ""
+"to publish the data, stripped of any personal identifiers (such data without "
+"personal identifiers being hereinafter referred to as \"the Data\" and make "
+"the Data available to any interested party on request (to the extent they "
+"have not, or not yet, been published by WHO) on terms that allow "
+"noncommercial, not-for-profit use of the Data for public health purposes "
+"(provided always that publication of the Data shall remain under the control "
+"of WHO);"
+msgstr "a publicar los datos, una vez eliminado cualquier identificador personal (a los mencionados datos sin identificadores personales se les denominará en adelante «los datos»), y a ponerlos a disposición de cualquier parte interesada que así lo solicite (en la medida en que todavía no hayan sido publicados por la OMS) para fines de salud pública exentos de usos comerciales o lucrativos (siempre que la publicación de tales datos se mantenga bajo el control de la OMS);"
+
+msgid ""
+"to use, compile, aggregate, evaluate and analyse the Data and publish and "
+"disseminate the results thereof in conjunction with WHO's work and in "
+"accordance with the Organization's policies and practices."
+msgstr "a utilizar, compilar, agregar, evaluar y analizar los datos y a publicar y difundir los resultados obtenidos en el contexto de la labor de la OMS y de conformidad con las políticas y prácticas de la Organización."
+
+msgid ""
+"Except where data sharing and publication is required under legally binding "
+"instruments (IHR, WHO Nomenclature Regulations 1967, etc.), the focal point "
+"of [Country] may in respect of certain data opt out of (any part of) the "
+"above, by notifying WHO thereof in writing at the following email address, "
+"provided that any such notification shall clearly identify the data in "
+"question and clearly indicate the scope of the opt-out (in reference to the "
+"above), and provided that specific reasons shall be given for the opt out."
+msgstr "Excepto cuando haya instrumentos jurídicamente vinculantes (Reglamento Sanitario Internacional, Reglamento de la Nomenclatura de la OMS de 1967, etc.) que exijan intercambiar y publicar datos, la persona de contacto de [país] puede optar por excluir (cualquier parte) de lo anterior, notificando de ello por escrito a la OMS a la dirección de correo electrónico ecddsecretariat@who.int, siempre que en dicha notificación se identifiquen claramente los datos que se quieren excluir, se señale claramente el alcance de la exclusión (con referencia a lo anterior) y se aporten motivos concretos para dicha exclusión."
+
+msgid ""
+"Do you agree to the ‘statement of policy on data sharing’ as outlined above?"
+msgstr "¿Está de acuerdo con el texto de esta declaración sobre la política de intercambio de datos?"
+
+msgid "Yes"
+msgstr "Sí"
+
+msgid "No (end this survey)"
+msgstr "No (finalice aquí el cuestionario)"
+
+msgid "Go to Data Entry App"
+msgstr "Ir al Formulario"
+
+msgid ""
+"Policy on use and sharing of data collected in Member States by the World "
+"Health Organization (WHO) outside the context of public health emergencies "
+"(Provisional). Geneva: World Health Organization; 2017 "
+msgstr "Política de la OMS sobre el uso e intercambio de datos recopilados por la OMS en los Estados Miembros fuera del contexto de emergencias de salud pública (Provisional). Ginebra: Organización Mundial de la Salud; 2017"
+
+msgid ", accessed 14 August 2019"
+msgstr ", consultado el 14 de agosto de 2019."
 
 msgid "Submit country data"
 msgstr ""
@@ -520,6 +690,13 @@ msgstr ""
 
 msgid "Read by"
 msgstr ""
+
+#, fuzzy
+#~ msgid "The information requested in this questionnaire for "
+#~ msgstr "La información solicitada en este cuestionario para "
+
+#~ msgid "complete this questionnaire."
+#~ msgstr "rellenar este cuestionario."
 
 #, fuzzy
 #~ msgid "GLASS Dashboard"

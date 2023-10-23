@@ -61,6 +61,7 @@ const App = ({ api }: { api: D2Api }) => {
                         const homePageAppPath = "/api/apps/Homepage-App/index.html#/";
                         goToExternalUrl(baseUrl + homePageAppPath);
                     }
+                    if (options.redirectToECDDQuestionnaire) window.location.hash = "/ecdd";
                     setRouterProps({ ...options, baseUrl });
                 }
             };

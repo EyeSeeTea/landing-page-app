@@ -22,12 +22,15 @@ import {
     InternationalLandingPage,
     MalariaLandingPage,
     GLASSLandingPage,
+    ECDDLandingPage,
 } from "../../webapp/pages";
 import internationalHeader from "../../webapp/components/headers/international-header";
 import glassHeader from "../../webapp/components/headers/glass-hq";
 import { Config } from "../../domain/entities/Config";
 import { glassAdminData, glassRegionalData } from "../../domain/models/glass/GLASS";
 import { DashboardIds } from "../../domain/entities/GLASSDashboard";
+import { ECDDData } from "../../domain/models/ecdd/ECDD";
+import ecddHeader from "../../webapp/components/headers/ecdd-header";
 
 //TODO: Ask if we need a simple snakebite data or not
 const HEP_CASCADE_CURE_DATA_ENTRY = "OSHcVu6XSUL";
@@ -71,6 +74,12 @@ const AMR_AMR_USER_MANAGEMENT = "QZPCnL0mtWV";
 export const AMR_AMR_DATA_CAPTURE = "CCRMy5e6ONV";
 export const AMR_AMR_VISUALIZER = "eyW7ie6NEuW";
 
+export const AMR_EGASP_DATA_CAPTURE = "j1BTDP7JUJp";
+export const AMR_EGASP_VISUALIZER = "M2jd9QXVWou";
+
+// ecdd user group id
+export const ECDD_USER = "Cwb2T8h5i6o";
+
 export interface Configuration {
     programme: string;
     title: string;
@@ -85,7 +94,8 @@ export interface Configuration {
 export const buildAvailableConfigurations = (
     version: number,
     userGroupIds: string[],
-    dashboards: DashboardIds
+    dashboards: DashboardIds,
+    baseUrl: string
 ): Configuration[] => {
     const isNHWADataManager = shouldRedirect(userGroupIds, [NHWA_DATA_MANAGERS]);
     const isNHWAGlobalTeam = shouldRedirect(userGroupIds, [NHWA_GLOBAL_TEAM]);
@@ -232,6 +242,16 @@ export const buildAvailableConfigurations = (
             data: glassRegionalData(reportsMenu, validationReport),
             icon: "img/glass.png",
         },
+        {
+            programme: "ecdd",
+            title: i18n.t("Expert Committee on Drug Dependence"),
+            description: i18n.t("Landing page for Expert Committee on Drug Dependence"),
+            userGroupIds: [ECDD_USER],
+            page: ECDDLandingPage,
+            header: ecddHeader,
+            data: ECDDData(baseUrl),
+            icon: "img/who-logo.png",
+        },
     ];
 };
 
@@ -260,6 +280,7 @@ export const handleRedirection = async (
         MAL_WPRO,
         MAL_EMRO,
     ]);
+    const isECDDUser = shouldRedirect(userGroupIds, [ECDD_USER]);
 
     const isGLASSCountryUser = shouldRedirect(userGroupIds, [AMR_AMR_DATA_CAPTURE, AMR_AMR_VISUALIZER]);
     const isGLASSAdmin = shouldRedirect(userGroupIds, [AMR_AMR_ADMIN]);
@@ -267,6 +288,8 @@ export const handleRedirection = async (
     const redirectToNHWAAdmin = !isAdminUserGroup && (isNHWAAdmin || (isNHWAGlobalTeam && isNHWADataManager));
 
     const redirectToMalaria = isMALRegionalUser;
+
+    const redirectToECDDQuestionnaire = isECDDUser;
 
     const redirectToGLASS = !isGLASSAdmin && isGLASSCountryUser;
 
@@ -282,7 +305,7 @@ export const handleRedirection = async (
         AMR_AMR_VISUALIZER,
     ]);
 
-    const availableConfiguration = buildAvailableConfigurations(version, userGroupIds, dashboards);
+    const availableConfiguration = buildAvailableConfigurations(version, userGroupIds, dashboards, baseUrl);
     const configurations = availableConfiguration.filter(
         config => isAdminUserGroup || shouldRedirect(userGroupIds, config.userGroupIds)
     );
@@ -299,6 +322,7 @@ export const handleRedirection = async (
             redirectToAMRAMRRegional,
             showAvailableLandingPages,
             redirectToMalaria,
+            redirectToECDDQuestionnaire,
         };
     } else {
         const { defaultProgramme, fallbackUrl } = config;
@@ -318,6 +342,7 @@ export const handleRedirection = async (
                 redirectToAMRAMRRegional,
                 showAvailableLandingPages,
                 redirectToMalaria,
+                redirectToECDDQuestionnaire,
             };
         } else {
             goToDhis2Url(baseUrl, fallbackUrl);
