@@ -79,6 +79,8 @@ const AMR_EGASP_VISUALIZER = "M2jd9QXVWou";
 const AMR_AMC_ADMIN = "sVbZXz6W0oQ";
 const AMR_EGASP_ADMIN = "txu7PyLyeld";
 
+const CSY_USERS = "y4eVE0uT9yz";
+
 const AMR_COUNTRY_GROUPS = [
     AMR_AMC_DATA_CAPTURE,
     AMR_AMC_VISUALIZER,
@@ -326,6 +328,8 @@ export const handleRedirection = async (
     const isGLASSCountryUser = shouldRedirect(userGroupIds, AMR_COUNTRY_GROUPS);
     const isGLASSAdmin = shouldRedirect(userGroupIds, [AMR_AMC_ADMIN, AMR_AMR_ADMIN, AMR_EGASP_ADMIN]);
 
+    const redirectToCSY = shouldRedirect(userGroupIds, [CSY_USERS]);
+    
     const redirectToNHWAAdmin = !isAdminUserGroup && (isNHWAAdmin || (isNHWAGlobalTeam && isNHWADataManager));
 
     const redirectToHomePage = isMALRegionalUser || (isAMRAMRUser && !isAMRUser) || (isAMRUser && !isAMRAMRUser);
@@ -352,6 +356,7 @@ export const handleRedirection = async (
             configurations,
             redirectToNHWAAdmin,
             redirectToGLASS,
+            redirectToCSY,
             redirectToAMRAMRHq,
             redirectToAMRAMRRegional,
             showAvailableLandingPages,
@@ -371,6 +376,7 @@ export const handleRedirection = async (
                 configurations: [fallbackConfig],
                 redirectToNHWAAdmin,
                 redirectToGLASS,
+                redirectToCSY,
                 redirectToAMRAMRHq,
                 redirectToAMRAMRRegional,
                 showAvailableLandingPages,
