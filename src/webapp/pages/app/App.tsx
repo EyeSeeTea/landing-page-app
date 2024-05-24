@@ -48,7 +48,6 @@ const App = ({ api }: { api: D2Api }) => {
 
                 const apiVersion = getMajorVersion(version);
                 const options = await handleRedirection(baseUrl, apiVersion, user, config, glassDashboardIds);
-                console.log("options",options);
                 if (options) {
                     if (options.redirectToNHWAAdmin) window.location.hash = "/nhwa-admins";
                     if (options.redirectToGLASS) {
@@ -58,7 +57,6 @@ const App = ({ api }: { api: D2Api }) => {
                     if (options.redirectToAMRAMRHq) window.location.hash = "/amr-amr-hq";
                     if (options.redirectToAMRAMRRegional) window.location.hash = "/amr-amr-regional";
                     if (options.showAvailableLandingPages) window.location.hash = "/";
-                    
                     if (options.redirectToHomePage) {
                         const homePageAppPath = "/api/apps/Homepage-App/index.html#/";
                         goToExternalUrl(baseUrl + homePageAppPath);

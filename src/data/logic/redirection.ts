@@ -329,10 +329,11 @@ export const handleRedirection = async (
     const isGLASSAdmin = shouldRedirect(userGroupIds, [AMR_AMC_ADMIN, AMR_AMR_ADMIN, AMR_EGASP_ADMIN]);
 
     const isCSYUser = shouldRedirect(userGroupIds, [CSY_USERS]);
-    
+
     const redirectToNHWAAdmin = !isAdminUserGroup && (isNHWAAdmin || (isNHWAGlobalTeam && isNHWADataManager));
 
-    const redirectToHomePage = isMALRegionalUser || (isAMRAMRUser && !isAMRUser) || (isAMRUser && !isAMRAMRUser) || isCSYUser;
+    const redirectToHomePage =
+        isMALRegionalUser || (isAMRAMRUser && !isAMRUser) || (isAMRUser && !isAMRAMRUser) || isCSYUser;
 
     const redirectToGLASS = !isGLASSAdmin && isGLASSCountryUser;
 
@@ -349,7 +350,7 @@ export const handleRedirection = async (
     );
     const username = user.name;
 
-    if (configurations.length > 0 || isMALRegionalUser || isGLASSCountryUser) {
+    if (configurations.length > 0 || isMALRegionalUser || isGLASSCountryUser || isCSYUser) {
         return {
             username,
             userGroupIds,
