@@ -79,6 +79,8 @@ const AMR_EGASP_VISUALIZER = "M2jd9QXVWou";
 const AMR_AMC_ADMIN = "sVbZXz6W0oQ";
 const AMR_EGASP_ADMIN = "txu7PyLyeld";
 
+const CSY_USERS = "y4eVE0uT9yz";
+
 const AMR_COUNTRY_GROUPS = [
     AMR_AMC_DATA_CAPTURE,
     AMR_AMC_VISUALIZER,
@@ -326,9 +328,12 @@ export const handleRedirection = async (
     const isGLASSCountryUser = shouldRedirect(userGroupIds, AMR_COUNTRY_GROUPS);
     const isGLASSAdmin = shouldRedirect(userGroupIds, [AMR_AMC_ADMIN, AMR_AMR_ADMIN, AMR_EGASP_ADMIN]);
 
+    const isCSYUser = shouldRedirect(userGroupIds, [CSY_USERS]);
+
     const redirectToNHWAAdmin = !isAdminUserGroup && (isNHWAAdmin || (isNHWAGlobalTeam && isNHWADataManager));
 
-    const redirectToHomePage = isMALRegionalUser || (isAMRAMRUser && !isAMRUser) || (isAMRUser && !isAMRAMRUser);
+    const redirectToHomePage =
+        isMALRegionalUser || (isAMRAMRUser && !isAMRUser) || (isAMRUser && !isAMRAMRUser) || isCSYUser;
 
     const redirectToGLASS = !isGLASSAdmin && isGLASSCountryUser;
 
@@ -345,7 +350,7 @@ export const handleRedirection = async (
     );
     const username = user.name;
 
-    if (configurations.length > 0 || isMALRegionalUser || isGLASSCountryUser) {
+    if (configurations.length > 0 || isMALRegionalUser || isGLASSCountryUser || isCSYUser) {
         return {
             username,
             userGroupIds,
