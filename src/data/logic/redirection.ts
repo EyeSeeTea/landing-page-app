@@ -81,6 +81,21 @@ const AMR_EGASP_ADMIN = "txu7PyLyeld";
 
 const CSY_USERS = "y4eVE0uT9yz";
 
+const PHSM_ADMIN = "zRPA77n4Bcc";
+const PHSM_DATA_CAPTURE = "MnBSYRXmBx0";
+const PHSM_VISUALIZER = "tGd0eXtBQoj";
+
+const AMR_PPS_ACCESS = "bLBJ1IX4TSx";
+const AMR_PPS_ADMIN = "vnvKgXEe9pp";
+const AMR_PPS_DATA_CAPTURE = "xRM5fExpVYi";
+const AMR_PPS_DATA_VISUALIZER = "BwXHH1ztfgC";
+const AMR_PREVALENCE_ACCESS = "txrAzLBN2gy";
+const AMR_PREVALENCE_ADMIN = "p9FsjQ18CX6";
+const AMR_PREVALENCE_DATA_CAPTURE = "mEiddV7XYz5";
+const AMR_PREVALENCE_DATA_VISUALIZER = "UVrRpSXkVfH";
+
+
+
 const AMR_COUNTRY_GROUPS = [
     AMR_AMC_DATA_CAPTURE,
     AMR_AMC_VISUALIZER,
@@ -330,10 +345,14 @@ export const handleRedirection = async (
 
     const isCSYUser = shouldRedirect(userGroupIds, [CSY_USERS]);
 
+    const isPHSMUser = shouldRedirect(userGroupIds, [PHSM_ADMIN, PHSM_DATA_CAPTURE, PHSM_VISUALIZER]);
+
+    const isSurveysUer = shouldRedirect(userGroupIds, [AMR_PPS_ACCESS,AMR_PPS_ADMIN,AMR_PPS_DATA_CAPTURE,AMR_PPS_DATA_VISUALIZER,AMR_PREVALENCE_ACCESS,AMR_PREVALENCE_ADMIN,AMR_PREVALENCE_DATA_CAPTURE,AMR_PREVALENCE_DATA_VISUALIZER]);
+
     const redirectToNHWAAdmin = !isAdminUserGroup && (isNHWAAdmin || (isNHWAGlobalTeam && isNHWADataManager));
 
     const redirectToHomePage =
-        isMALRegionalUser || (isAMRAMRUser && !isAMRUser) || (isAMRUser && !isAMRAMRUser) || isCSYUser;
+        isMALRegionalUser || (isAMRAMRUser && !isAMRUser) || (isAMRUser && !isAMRAMRUser) || isCSYUser || isPHSMUser || isSurveysUer;
 
     const redirectToGLASS = !isGLASSAdmin && isGLASSCountryUser;
 
@@ -350,7 +369,7 @@ export const handleRedirection = async (
     );
     const username = user.name;
 
-    if (configurations.length > 0 || isMALRegionalUser || isGLASSCountryUser || isCSYUser) {
+    if (configurations.length > 0 || isMALRegionalUser || isGLASSCountryUser || isCSYUser || isPHSMUser || isSurveysUer) {
         return {
             username,
             userGroupIds,
